@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Actividad 8 por Paola Perán">
+        <title>Actividad 8</title>
+    </head>
+
+    <body>
+     <form action="#" method="get">
+        
+        <fieldset>
+            <legend>Formulario</legend>
+            <br>
+
+            <!--Campo de texto-->
+            <label for="Nombre">Nombre:</label>
+            <input type="text" id="Nombre" name="Nombre"><br><br>
+            <label for="pass">Contraseña:</label>
+            <input type="password" id="pass" name="pass"><br><br>
+
+            
+            <!--Grupo de botones de radio-->  
+            <fieldset>
+                <legend>Género</legend>
+
+                <label for="Hombre">Hombre</label>
+                <input type="radio" id="Hombre" name="Hombre" value="Hombre">
+
+                <label for="Mujer">Mujer</label>
+                <input type="radio" id="Mujer" name="Mujer" value="Mujer">
+
+                <label for="Otro">Otro</label>
+                <input type="radio" id="Otro" name="Otro" value="Otro">
+
+            </fieldset><br>
+  
+            <!--Checkbox-->
+            <fieldset>
+                <legend>Deportes que me gustan:</legend>
+
+                <label for="Futbol">Fútbol</label>
+                <input type="checkbox" id="Futbol" name="Futbol" value="Futbol">
+
+                <label for="Baloncesto">Baloncesto</label>
+                <input type="checkbox" id="Baloncesto" name="Baloncesto" value="Baloncesto">
+
+                <label for="Tenis">Tenis</label>
+                <input type="checkbox" id="Tenis" name="Tenis" value="Tenis">
+
+            </fieldset><br>
+
+            <!--Caja de Sección-->
+
+            <label for="Etapas">Estación del año favorita:</label>
+                <select id="Etapas" name="Etapas">
+                    <option value="Primavera">Primavera</option>
+                    <option value="Verano">Verano</option>
+                    <option value="Otoño">Otoño</option>
+                    <option value="Invierno">Invierno</option>
+                </select><br>
+
+                <!--Comentario-->
+                <p>Comentario:</p>
+                <textarea rows="6" cols="40"></textarea><br><br>
+
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpiar</button>
+        </fieldset>
+     </form>
+    </body>

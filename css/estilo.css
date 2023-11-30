@@ -1,0 +1,50 @@
+body {
+    background-color: #3c4a5e;
+   }
+   header {
+    background-color: rgb(106, 142, 209);
+    color: #fff;
+    text-align: center;
+    padding: 15px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   #titulo {
+    margin: 10px;
+    padding: 0px;
+   }
+   #menuPrincipal {
+    background-color: rgb(136, 171, 235);
+   }
+   nav ul {
+    list-style: none;
+    padding: 0px;
+   }
+   #menuPrincipal ul li {
+    display: inline;
+    margin: 0px 15px;
+   }
+   .enlacemenuPrincipal {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+   }
+   .tituloSeccion {
+    background-color: rgb(106, 142, 209);
+    color: #fff;
+    padding: 10px;
+   }
+   .texto {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin: 17px;
+    padding: 15px;
+   }
+   footer {
+    background-color: rgb(106, 142, 209);
+    color: #fff;
+    text-align: center;
+    margin: 18px;
+    padding: 10px;
+   }
+         
+   
