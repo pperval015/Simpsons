@@ -48,13 +48,12 @@ body {
     padding: 10px;
    }
 
-    .cuadroCentrado{
+    #cuadroFormulario{
         text-align: center;
+        background-color: rgb(136, 171, 235);
+        margin: auto; /*Con esto centramos*/
+        width: 500px;
+        padding: 20px;
     }
 
-    #formulario{
-        background-color: rgb(136, 171, 235);
-        width:500px;
-        text-align:center;
-    }
    
