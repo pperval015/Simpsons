@@ -46,9 +46,12 @@ body {
     margin: 18px;
     padding: 10px;
    }
-#formulario{
-    background-color: white;
-    width:500px;
-    text-align:center;
-}
+    #formulario{
+        background-color: white;
+        width:500px;
+        text-align:center;
+    }
+    .centrado{
+        text-align: center;
+    }
    
